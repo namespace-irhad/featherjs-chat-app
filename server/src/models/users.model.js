@@ -13,6 +13,11 @@ class Users extends Model {
 
       properties: {
         googleId: { type: 'string' },
+        email: {type: 'string'},
+        name: {type: 'string'},
+        first_name: {type: 'string'},
+        last_name: {type: 'string'},
+        picture: {type: 'string'}
       },
     };
   }

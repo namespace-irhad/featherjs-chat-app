@@ -1,0 +1,28 @@
+.hero-container {
+    min-height: 100vh;
+    width: 100vw;
+    background: url('../../assets/images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: none;
+}
+
+.hero-title {
+    padding-top: 10vmin;
+    font-size: 2rem;
+}
+
+.user-wrapper {
+    padding: 5px;
+    font-weight: 300;
+}
+
+.login-wrapper {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

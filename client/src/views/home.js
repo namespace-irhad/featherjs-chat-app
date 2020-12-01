@@ -1,15 +1,10 @@
-import React from 'react'
-import HeroSpace from '../components/HeroSpace'
-import LoginButton from '../components/LoginButton'
+import React from 'react';
+import HeroSpace from '../components/HeroSpace';
 
-const Home = () => {
-    return (
-        <div>
-            <HeroSpace />
-            <LoginButton />
-            <p>etc...</p>
-        </div>
-    )
-}
+const Home = () => (
+  <div>
+    <HeroSpace />
+  </div>
+);
 
-export default Home
+export default Home;
